@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "30f74ba24e4cf370",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e01409712b6e879",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0541e76d633941bd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "c80a0587a8f1b7ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c6f17f5bb2426b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3accc3bc5f0c100e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5a8e11e6c34847",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "16b2583d26660fdc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "rubo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a6b1aef83699fde",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 432.51103591918945
+  },
+  "right": {
+    "id": "6148a69b3ec27ba3",
+    "type": "split",
+    "children": [
+      {
+        "id": "676436b7294ccefc",
+        "type": "tabs",
+        "dimension": 36.880927291886195,
+        "children": [
+          {
+            "id": "0cbf374d4a72e11d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3cbc915e128333b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d4cc93f910e6f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "a1a0be0a36607413",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8859e3247f4d9e12",
+        "type": "tabs",
+        "dimension": 63.1190727081138,
+        "children": [
+          {
+            "id": "5df681634d37754f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5396170846225771,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "8d7d89fbd61dd366",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 454.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "templates:Inserir modelo": true,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "c80a0587a8f1b7ca",
+  "lastOpenFiles": [
+    "00 - Diário/2024-07-16.md",
+    "00 - Diário/2024-07-15.md",
+    "00 - Diário/2024-07-14.md",
+    "00 - Diário/2024-07-12.md",
+    "00 - Diário/2024-07-11.md",
+    "00 - Diário/2024-07-19.md",
+    "00 - Diário/2024-07-20.md",
+    "00 - Diário/2024-08-05.md",
+    "03 - Projetos/Youse/Tasks/Testes STAGE 2372.md",
+    "03 - Projetos/Youse/Tasks/SUB-780.md",
+    "03 - Projetos/Projetos.md",
+    "99 - Recursos/pages/Home.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing/Produção Videos/20240720153929 - ROTEIRO PARA VÍDEOS DIGITAIS.md",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian/20240720161525 - Temas da comunidade (opcional).md",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian/Curso Gestão Conhecimento com Obsidian.md",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian/20240709185114 - dicas descrição curso.md",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian/20240713095551 - Criando um cofre e primeiras notas.md",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian/20240717180513 - Zettelkasten Vendas.md",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian/20240713100508 - Formatação de notas com Markdowns.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing/Produção Videos/Produção Videos.md",
+    "99 - Recursos/attachments/Pasted image 20240720160458.png",
+    "99 - Recursos/attachments/Pasted image 20240720160308.png",
+    "99 - Recursos/attachments/Pasted image 20240720160305.png",
+    "99 - Recursos/attachments/Pasted image 20240720160233.png",
+    "99 - Recursos/attachments/Pasted image 20240720155944.png",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing/Marketing.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Vendas.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing/Produção Videos",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing",
+    "04 - Excalidraw/rd.excalidraw.md",
+    "04 - Excalidraw/youse.excalidraw.md",
+    "02 - Referências/Desenvolvimento Pessoal/Saúde e Bem Estar/Reservatorio de Dopamina/20240719190719 - 🎈 063 - O PODER DA EXPECTATIVA (sistema dopaminérgico).md",
+    "99 - Recursos/attachments/Pasted image 20240719192220.png",
+    "99 - Recursos/attachments/Pasted image 20240719191204.png",
+    "02 - Referências/Desenvolvimento Pessoal/Saúde e Bem Estar/Reservatorio de Dopamina/20240716224859 - 🎈 062 - DINHEIRO TRAZ FELICIDADE Pt. 2 (Não).md",
+    "99 - Recursos/attachments/Pasted image 20240717101756.png",
+    "99 - Recursos/attachments/Pasted image 20240716101624.png",
+    "99 - Recursos/attachments/Pasted image 20240716101548.png",
+    "03 - Projetos/Pensar Bem/Conteúdo/Design Guide",
+    "03 - Projetos/Pensar Bem/Conteúdo/Posts",
+    "03 - Projetos/Pensar Bem/Conteúdo/Curso Gestão Conhecimento com Obsidian",
+    "03 - Projetos/Pensar Bem/Conteúdo",
+    "03 - Projetos/Sem título",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Oratória/TED TALKS",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/As armas da persuasão",
+    "03 - Projetos/Pensar Bem/Recursos",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
+    "Canva Teste.canvas",
+    "98 - Arquivos/Sem título.canvas"
+  ]
+}

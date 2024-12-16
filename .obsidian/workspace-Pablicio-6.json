@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "30f74ba24e4cf370",
+    "type": "split",
+    "children": [
+      {
+        "id": "0772bc4785b30d91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cf8ce988fcc3a47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Recursos/pages/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c6f17f5bb2426b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3accc3bc5f0c100e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5a8e11e6c34847",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "16b2583d26660fdc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "prompt",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a6b1aef83699fde",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 552.5026054382324
+  },
+  "right": {
+    "id": "6148a69b3ec27ba3",
+    "type": "split",
+    "children": [
+      {
+        "id": "676436b7294ccefc",
+        "type": "tabs",
+        "dimension": 50.69252077562326,
+        "children": [
+          {
+            "id": "0cbf374d4a72e11d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "99 - Recursos/pages/Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3cbc915e128333b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "99 - Recursos/pages/Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d4cc93f910e6f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "99 - Recursos/pages/Home.md"
+              }
+            }
+          },
+          {
+            "id": "a1a0be0a36607413",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8859e3247f4d9e12",
+        "type": "tabs",
+        "dimension": 49.30747922437674,
+        "children": [
+          {
+            "id": "5df681634d37754f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "99 - Recursos/pages/Home.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 18.8897959183673,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.734586335717307,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "8d7d89fbd61dd366",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 506.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "templates:Inserir modelo": true,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "8cf8ce988fcc3a47",
+  "lastOpenFiles": [
+    "01 - Caixa de Entrada/20241003182731 -.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240818111937 - Capítulo 6 - O que devo anota (questao).md",
+    "99 - Recursos/pages/Home.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240818100818 - Capítulo 5 - Formatação de notas - Markdown.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240817111137 - Capítulo 4 - Por onde começo (questão).md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240817080653 - Capítulo 3 - E quem anota (questão).md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240819111430 - Capitulo 7 - Estrutura de pastas principais.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20241003174847 - Agrupamento notas Arvore Zettelkasten.md",
+    "00 - Diário/2024-10-04.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20241003202256 - Como Um Acadêmico Alemão Foi Tão Extraordinariamente Produtivo.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20240920120627 - Organização Citações Zettelkasten.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20240926124626 - Explorando o poder da criação de notas com o co-fundador do Obsidian..md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/Building a Practically Useful Theory of Goal Setting/20241002204740 - Notas Building a Practically Useful Theory of Goal Setting and Task Motivation.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Garra/Self-Control and Grit Related but Separable/20241002205957 - Notas Related but Separable Determinants of Success.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Antinet Zettelkasten/20241003003026 - Notas Antinet Arvore.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Antinet Zettelkasten/Antinet Zettelkasten.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/Goal Systems Theory Psychological Processes and Applications/20241002203648 - Notas GST Psychological Processes and Applications.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/A theory of goal systems 2002/20241002201110 - Notas GTS 2002.md",
+    "00 - Diário/2024-10-03.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/Livro Zettelkasten.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Antinet Zettelkasten/20240930212410 - 8 - Àrvore.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/20241001203840 - Notas GST.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/Goal Systems Theory Psychological Processes and Applications/Goal Systems Theory Psychological Processes and Applications.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/Teoria dos Sistemas de Meta.md",
+    "00 - Diário/2024-10-02.md",
+    "99 - Recursos/pages/Projeto.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Garra/Self-Control and Grit Related but Separable",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/Building a Practically Useful Theory of Goal Setting",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/Goal Systems Theory Psychological Processes and Applications",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST/A theory of goal systems 2002",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas/GST",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian - Copia",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Antinet Zettelkasten",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Teoria dos Sistemas de Metas",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital",
+    "99 - Recursos/attachments/Pasted image 20240910112258.png",
+    "99 - Recursos/attachments/Pasted image 20240909134351.png",
+    "99 - Recursos/attachments/Pasted image 20240909110958.png",
+    "99 - Recursos/attachments/Pasted image 20240906111130.png",
+    "99 - Recursos/attachments/Pasted image 20240906111355.png",
+    "99 - Recursos/attachments/Pasted image 20240826185638.png",
+    "99 - Recursos/attachments/Pasted image 20240826185622.png",
+    "99 - Recursos/attachments/Pasted image 20240824111808.png",
+    "99 - Recursos/attachments/Pasted image 20240824110011.png",
+    "99 - Recursos/attachments/Pasted image 20240824104040.png",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
+    "Canva Teste.canvas",
+    "98 - Arquivos/Sem título.canvas"
+  ]
+}

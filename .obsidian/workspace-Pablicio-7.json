@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "01bf9fa8c8164add",
+    "type": "split",
+    "children": [
+      {
+        "id": "67923168da4a66f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "157b733ca251d8a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Suporte/pages/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "15ab13e53e369d7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ecf39eb449577ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c7b688fd03f780e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "929e67503042b34b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "cpf",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "142f89a4f0d58e1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 535.5026054382324
+  },
+  "right": {
+    "id": "0fcc323f65d2c06e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d34aa257075a39bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "749bb42a130e74fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 53 - Starship - SpaceX, 2018-2019.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Capítulo 53 - Starship - SpaceX, 2018-2019"
+            }
+          },
+          {
+            "id": "2b366fa7c824db44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 - Diário/2024-10-24.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para 2024-10-24"
+            }
+          },
+          {
+            "id": "62eda4d3bd5f4ec1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "425dcf2b48ad359c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 53 - Starship - SpaceX, 2018-2019.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Capítulo 53 - Starship - SpaceX, 2018-2019"
+            }
+          },
+          {
+            "id": "334788778bd6dfe0",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 447.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "graph:Abrir visualização em gráfico": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Abrir a troca rápida": false,
+      "canvas:Criar novo canvas": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "157b733ca251d8a2",
+  "lastOpenFiles": [
+    "00 - Diário/2024-10-26.md",
+    "99 - Suporte/pages/Meus Livros.md",
+    "99 - Suporte/pages/Home.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/20241026135435 - Estudos sobre IA Roadmap.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/IA.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/Computação.md",
+    "Matemática Para Computação.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA",
+    "03 - Permanentes/Permamentes.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Seja indispensável no trabalho/20241026133909 - Lidere de Onde Quer que Você Esteja.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Seja indispensável no trabalho/20241024130125 - Resumão Seja indispensável no trabalho.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Seja indispensável no trabalho/Seja indispensável no trabalho.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Seja indispensável no trabalho/20241025114357 - A matemática peculiar de  Influência Real.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240821103105 - Capitulo 9 - Arquivamento.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Zettelkasten/20240821103000 - Capitulo 8 - Suporte.md",
+    "00 - Diário/2024-10-25.md",
+    "04 - Projetos/Youse/Tutoriais/Parseamento logs.md",
+    "99 - Recursos/attachments/Pasted image 20241025160202.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/resumao-musk.md",
+    "99 - Recursos/attachments/Pasted image 20241025153445.png",
+    "04 - Projetos/Youse/Tutoriais/Subir o notifier localmente.md",
+    "04 - Projetos/Youse/Tutoriais/Tutoriais.md",
+    "99 - Recursos/attachments/Pasted image 20241025152925.png",
+    "99 - Recursos/attachments/Pasted image 20241025152536.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Biografia Elon Musk.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 57 - A pleno vapor - SpaceX, 2020.md",
+    "99 - Recursos/attachments/Pasted image 20241025135833.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 56 - Vida familiar - 2020.md",
+    "99 - Recursos/attachments/Pasted image 20241025135748.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 55 - Giga Texas - Tesla, 2020-2021.md",
+    "99 - Recursos/attachments/Pasted image 20241025135656.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 54 - Dia da Autonomia - Tesla, abril de 2019.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 53 - Starship - SpaceX, 2018-2019.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Seja indispensável no trabalho/20241024130507 - Só prometa o que pode cumprir.md",
+    "99 - Recursos/attachments/Pasted image 20241024182951.png",
+    "99 - Recursos/attachments/Pasted image 20241024182808.png",
+    "99 - Recursos/attachments/Pasted image 20241024182715.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/saida.txt",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/ler_markdown.php",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/ler_markdon.php",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Seja indispensável no trabalho",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/A menina do Vale 2",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/A menina do Vale/V2",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/A menina do Vale/V1",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/A menina do Vale 1",
+    "99 - Recursos/attachments"
+  ]
+}

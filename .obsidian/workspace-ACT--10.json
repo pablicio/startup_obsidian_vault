@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "30f74ba24e4cf370",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e195175d4ec0b7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f76359d4051915cb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911153943 - Estilo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6e75e58d59d2d039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154334 - Usos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c6f17f5bb2426b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3accc3bc5f0c100e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5a8e11e6c34847",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "16b2583d26660fdc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a6b1aef83699fde",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5026054382324
+  },
+  "right": {
+    "id": "6148a69b3ec27ba3",
+    "type": "split",
+    "children": [
+      {
+        "id": "676436b7294ccefc",
+        "type": "tabs",
+        "dimension": 50.69252077562326,
+        "children": [
+          {
+            "id": "0cbf374d4a72e11d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154334 - Usos.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3cbc915e128333b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154334 - Usos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d4cc93f910e6f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154334 - Usos.md"
+              }
+            }
+          },
+          {
+            "id": "a1a0be0a36607413",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8859e3247f4d9e12",
+        "type": "tabs",
+        "dimension": 49.30747922437674,
+        "children": [
+          {
+            "id": "5df681634d37754f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154334 - Usos.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 18.8897959183673,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.734586335717307,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "8d7d89fbd61dd366",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 506.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "templates:Inserir modelo": true,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "6e75e58d59d2d039",
+  "lastOpenFiles": [
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240912160753 - resumão Como escrever bem.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Economia do acesso e os modelos de negócios baseados em compartilhamento/20240917161143 - Você não é o futuro Uma conclusão.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Economia do acesso e os modelos de negócios baseados em compartilhamento",
+    "00 - Diário/2024-09-14.md",
+    "98 - Itens Arquivados/livro/20240911235903 - rascunho cap 1.md",
+    "98 - Itens Arquivados/livro",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154234 - Palavras.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154143 - O público.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911154334 - Usos.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20240908214221 - Cartões de Reagan.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20240909110711 - Zettelkasten e repetição espaçada.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/20240909140258 - A escrita de notas como artesanato intelectual.md",
+    "99 - Recursos/pages/Meus Livros.md",
+    "99 - Recursos/pages/Home.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911153943 - Estilo.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911153936 - Excessos.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911153848 - Simplicidade.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911153731 - A Negociação.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/20240911153410 - Introdução.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem/Como escrever bem.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como ler livros/20240617175414 - Dicas Como Ler Livros.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como ler livros/Como ler livros.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como ler livros/20240617152642 - Resumo como ler livros.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Como escrever bem",
+    "00 - Diário/2024-09-11.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Sem título",
+    "00 - Diário/2024-09-10.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240817080653 - Capítulo 3 - Conhecendo o Obsidian.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144911 - Capítulo 2 - Cuidados ao utilizar o Zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144832 - Capítulo 1 - O método Zettelkasten.md",
+    "99 - Recursos/attachments/Pasted image 20240910112258.png",
+    "99 - Recursos/attachments/Pasted image 20240909134351.png",
+    "99 - Recursos/attachments/Pasted image 20240909110958.png",
+    "99 - Recursos/attachments/Pasted image 20240906111130.png",
+    "99 - Recursos/attachments/Pasted image 20240906111355.png",
+    "99 - Recursos/attachments/Pasted image 20240826185638.png",
+    "99 - Recursos/attachments/Pasted image 20240826185622.png",
+    "99 - Recursos/attachments/Pasted image 20240824111808.png",
+    "99 - Recursos/attachments/Pasted image 20240824110011.png",
+    "99 - Recursos/attachments/Pasted image 20240824104040.png",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Oratória/Tecnicas",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Como convencer alguém em 90 segundos",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Como tomar notas inteligentes",
+    "03 - Permanentes/Sem título",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
+    "Canva Teste.canvas",
+    "98 - Arquivos/Sem título.canvas"
+  ]
+}

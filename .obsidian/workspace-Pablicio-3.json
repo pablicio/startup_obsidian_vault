@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "30f74ba24e4cf370",
+    "type": "split",
+    "children": [
+      {
+        "id": "3422c6f7d591e7e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27285a8ee84f9e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 4 - Formatação de notas - Markdown.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c6f17f5bb2426b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3accc3bc5f0c100e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5a8e11e6c34847",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "16b2583d26660fdc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Feynman",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a6b1aef83699fde",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 490.51103591918945
+  },
+  "right": {
+    "id": "6148a69b3ec27ba3",
+    "type": "split",
+    "children": [
+      {
+        "id": "676436b7294ccefc",
+        "type": "tabs",
+        "dimension": 21.07481559536354,
+        "children": [
+          {
+            "id": "0cbf374d4a72e11d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 4 - Formatação de notas - Markdown.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3cbc915e128333b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 4 - Formatação de notas - Markdown.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d4cc93f910e6f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 4 - Formatação de notas - Markdown.md"
+              }
+            }
+          },
+          {
+            "id": "a1a0be0a36607413",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8859e3247f4d9e12",
+        "type": "tabs",
+        "dimension": 78.92518440463645,
+        "children": [
+          {
+            "id": "5df681634d37754f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 4 - Formatação de notas - Markdown.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 18.8897959183673,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.734586335717307,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "8d7d89fbd61dd366",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 506.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "templates:Inserir modelo": true,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "27285a8ee84f9e1b",
+  "lastOpenFiles": [
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240817080653 - Capítulo 3 - Conhecendo o Obsidian.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240817111137 - Capítulo 4 - Primeiros passos.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144911 - Capítulo 2 - Princípios do zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144832 - Capítulo 1 - O método Zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 4 - Formatação de notas - Markdown.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818111937 - Capítulo 5 - Arvore de metas e objetivos.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819111430 - Capitulo 6 - Estrutura de pastas principais.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240812224708 - Pré Sumário.md",
+    "99 - Recursos/attachments/Pasted image 20240819125419.png",
+    "05 - Excalidraw/Metas Abstratas.excalidraw.md",
+    "05 - Excalidraw/curso.excalidraw.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240813111115 - Introdução.md",
+    "00 - Diário/2024-08-19.md",
+    "04 - Projetos/Youse/Tutoriais/Cadastro Cep.md",
+    "99 - Recursos/attachments/Pasted image 20240819110248.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Garra/20240428182645 - ATÉ ONDE VAI SUA GARRA.md",
+    "05 - Excalidraw/rd.excalidraw.md",
+    "05 - Excalidraw/system-design-example-2.excalidraw.md",
+    "05 - Excalidraw/youse.excalidraw.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Garra/20240427192620 - O ESFORÇO CONTA EM DOBRO.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Garra/Garra.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Ultralearning/20240413113355 - Capítulo 11 - Intuição.md",
+    "03 - Permanentes/20240810144953 - Abra a cabeça.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Como tomar notas inteligentes/20240806091749 - Tudo que você precisa fazer.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Garra/20240426095129 - ENGANADA PELO TALENTO.md",
+    "99 - Recursos/pages/Home.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/Livro Obsidian.md",
+    "00 - Diário/2024-08-18.md",
+    "99 - Recursos/attachments/Pasted image 20240818111028.png",
+    "99 - Recursos/attachments/Pasted image 20240818110814.png",
+    "99 - Recursos/attachments/Pasted image 20240818110734.png",
+    "99 - Recursos/attachments/Pasted image 20240818110710.png",
+    "99 - Recursos/attachments/Pasted image 20240818110349.png",
+    "99 - Recursos/attachments/Pasted image 20240818110019.png",
+    "99 - Recursos/attachments/Pasted image 20240818104343.png",
+    "99 - Recursos/attachments/Pasted image 20240818102716.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Como convencer alguém em 90 segundos",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Como tomar notas inteligentes",
+    "03 - Permanentes/Sem título",
+    "03 - Permanentes",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Gatilhos Mentais",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing/Produção Videos",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing",
+    "04 - Projetos/Pensar Bem/Conteúdo/Design Guide",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
+    "Canva Teste.canvas",
+    "98 - Arquivos/Sem título.canvas"
+  ]
+}

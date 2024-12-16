@@ -1,0 +1,13 @@
+{
+  "accentColor": "#4e555f",
+  "theme": "obsidian",
+  "cssTheme": "Things",
+  "baseFontSize": 19,
+  "translucency": true,
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength"
+  ]
+}

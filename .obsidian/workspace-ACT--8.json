@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "30f74ba24e4cf370",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e02699e79952437",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "144eb3bbfb99e04a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Diário/2024-08-05.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69d8a1edf250189d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Projetos/Youse/Tasks/SUB-780.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84c6f17f5bb2426b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3accc3bc5f0c100e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c5a8e11e6c34847",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "16b2583d26660fdc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "lembrete_vistoria_online",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a6b1aef83699fde",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5026054382324
+  },
+  "right": {
+    "id": "6148a69b3ec27ba3",
+    "type": "split",
+    "children": [
+      {
+        "id": "676436b7294ccefc",
+        "type": "tabs",
+        "dimension": 21.07481559536354,
+        "children": [
+          {
+            "id": "0cbf374d4a72e11d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04 - Projetos/Youse/Tasks/SUB-780.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3cbc915e128333b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04 - Projetos/Youse/Tasks/SUB-780.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5d4cc93f910e6f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04 - Projetos/Youse/Tasks/SUB-780.md"
+              }
+            }
+          },
+          {
+            "id": "a1a0be0a36607413",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8859e3247f4d9e12",
+        "type": "tabs",
+        "dimension": 78.92518440463645,
+        "children": [
+          {
+            "id": "5df681634d37754f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "04 - Projetos/Youse/Tasks/SUB-780.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0,
+                  "repelStrength": 18.8897959183673,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.734586335717307,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "8d7d89fbd61dd366",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 506.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "templates:Inserir modelo": true,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "69d8a1edf250189d",
+  "lastOpenFiles": [
+    "99 - Recursos/attachments/Pasted image 20240817151903.png",
+    "99 - Recursos/attachments/obsidian_image.png",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Oratória/Tecnicas/Tecnicas.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Oratória/Tecnicas/20240820085651 - Apresentação Perfeita.md",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Oratória/Tecnicas",
+    "00 - Diário/2024-08-19.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819111430 - Capitulo 7 - Estrutura de pastas principais.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818111937 - Capítulo 6 - Arvore de metas e objetivos.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240818100818 - Capítulo 5 - Formatação de notas - Markdown.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240817111137 - Capítulo 4 - Primeiros passos.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240817080653 - Capítulo 3 - Conhecendo o Obsidian.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144911 - Capítulo 2 - Princípios do zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144111 - Capítulo 2 - Princípios do zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144818 - Capítulo 2 - Princípios do zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240816144832 - Capítulo 1 - O método Zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819175818 - Capítulo 2 - Princípios do zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819175818 - Capítulo 1 - O método zettelkasten.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819175818 -.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819111430 - Capitulo 6 - Estrutura de pastas principais-ACT--2.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819111430 - Capitulo 6 - Estrutura de pastas principais-ACT-.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian/20240819111430 - Capitulo 6 - Estrutura de pastas principais.md",
+    "98 - Itens Arquivados/Persons.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital/Zettelkasten Digital.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital/20240816102826 - Bicicleta para a mente.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital/20240816101928 - O que é um zettelkasten.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Zettelkasten Digital",
+    "03 - Permanentes/20240808083752 - Como escrever melhor.md",
+    "03 - Permanentes/20240812215905 - Notas inteligentes.md",
+    "03 - Permanentes/20240810144953 - Abra a cabeça.md",
+    "04 - Projetos/Pensar Bem/Conteúdo/Livro Obsidian",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Zettelkasten/Como tomar notas inteligentes",
+    "03 - Permanentes/Sem título",
+    "03 - Permanentes",
+    "99 - Recursos/attachments/Pasted image 20240801210007.png",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Gatilhos Mentais",
+    "99 - Recursos/attachments/Pasted image 20240730185026.png",
+    "99 - Recursos/attachments/Pasted image 20240730184919.png",
+    "99 - Recursos/attachments/Pasted image 20240730184757.png",
+    "99 - Recursos/attachments/Pasted image 20240730184504.png",
+    "99 - Recursos/attachments/Pasted image 20240730184257.png",
+    "99 - Recursos/attachments/Pasted image 20240727225056.png",
+    "99 - Recursos/attachments/Pasted image 20240727224047.png",
+    "99 - Recursos/attachments/Pasted image 20240723122448.png",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing/Produção Videos",
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Marketing",
+    "04 - Projetos/Pensar Bem/Conteúdo/Design Guide",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
+    "Canva Teste.canvas",
+    "98 - Arquivos/Sem título.canvas"
+  ]
+}

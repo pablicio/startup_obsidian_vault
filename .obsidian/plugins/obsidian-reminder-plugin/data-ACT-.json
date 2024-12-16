@@ -1,0 +1,38 @@
+{
+  "scanned": true,
+  "reminders": {
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Como Criar Cursos Online de Sucesso/20240618230711 - Quem é você e o que você pode ensinar.md": [
+      {
+        "title": "Uma foto em boa qualidade:",
+        "time": "2024-08-28",
+        "rowNumber": 11
+      }
+    ],
+    "02 - Referências/Empreendimento de Sucesso/Administração e Negócios/Empreendedorismo/Vendas/Oratória/Oratória.md": [
+      {
+        "title": "",
+        "time": "2024-08-29",
+        "rowNumber": 6
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": false,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

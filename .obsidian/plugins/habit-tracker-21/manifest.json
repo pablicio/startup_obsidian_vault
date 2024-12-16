@@ -1,0 +1,10 @@
+{
+	"id": "habit-tracker-21",
+	"name": "Habit Tracker 21",
+	"version": "1.4.4",
+	"minAppVersion": "1.1.0",
+	"description": "Your 21-day journey to habit formation, simplified",
+	"author": "Zoreet",
+	"authorUrl": "https://github.com/zoreet",
+	"isDesktopOnly": false
+}

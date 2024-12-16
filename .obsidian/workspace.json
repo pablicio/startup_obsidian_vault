@@ -1,0 +1,285 @@
+{
+  "main": {
+    "id": "01bf9fa8c8164add",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ffe0519fa121358",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c85b42ce3c49c307",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Suporte/pages/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "15ab13e53e369d7e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ecf39eb449577ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c7b688fd03f780e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "929e67503042b34b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#artificial",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "142f89a4f0d58e1e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 254.5
+  },
+  "right": {
+    "id": "0fcc323f65d2c06e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d34aa257075a39bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "749bb42a130e74fa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 53 - Starship - SpaceX, 2018-2019.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Capítulo 53 - Starship - SpaceX, 2018-2019"
+            }
+          },
+          {
+            "id": "2b366fa7c824db44",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 - Diário/2024-11-20.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para 2024-11-20"
+            }
+          },
+          {
+            "id": "62eda4d3bd5f4ec1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "425dcf2b48ad359c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 53 - Starship - SpaceX, 2018-2019.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Capítulo 53 - Starship - SpaceX, 2018-2019"
+            }
+          },
+          {
+            "id": "334788778bd6dfe0",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "58aa14af0141ce1f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "01 - Caixa de Entrada/20241215115414 - Exercício de Múltipla Escolha -  Gradiente Descendente.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7069024676047547,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de 20241215115414 - Exercício de Múltipla Escolha -  Gradiente Descendente"
+            }
+          },
+          {
+            "id": "a5292d6375f5b753",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "4b01db0206076c49",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 510.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Criar nova nota única": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "graph:Abrir visualização em gráfico": false,
+      "switcher:Abrir a troca rápida": false,
+      "canvas:Criar novo canvas": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "c85b42ce3c49c307",
+  "lastOpenFiles": [
+    "01 - Caixa de Entrada/20241216144736 -.md",
+    "99 - Suporte/pages/Home.md",
+    "99 - Suporte/attachments/Zettelkasten method with books and notes.png",
+    "99 - Suporte/pages/Acordar cedo.md",
+    "99 - Suporte/pages/Dieta.md",
+    "99 - Suporte/pages/Exercícios.md",
+    "99 - Suporte/pages/Meus Livros.md",
+    "99 - Suporte/pages/Projeto.md",
+    "04 - Projetos/Youse/Tasks/SUB-881.md",
+    "00 - Diário/2024-12-16.md",
+    "00 - Diário/2024-12-15.md",
+    "01 - Caixa de Entrada/20241215115414 - Exercício de Múltipla Escolha -  Gradiente Descendente.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/20241215113807 - Verificação da convergência da descida do gradiente.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/exercicios/20241211232317 - Questionário prático - Descida de gradiente na prática.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/Resumão Supervised Machine Learning Regression and Classification.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/exercicios",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Biografia Elon Musk.md",
+    "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/20241214163509 - Revisão Normalização de dados.md",
+    "99 - Suporte/attachments/Pasted image 20241215114758.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Resumão Biografia Elon Musk.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Inglês/Sou péssimo em inglês/Sou péssimo em inglês.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 80 - Robotáxi - Tesla, 2022.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 79 - Apresentação do Optimus (Tesla, setembro de 2022).md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 78 - Incerteza (Twitter, julho a setembro de 2022).md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 77 - Optimus Prime (Tesla, 2021-2022).md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 76 - Sacudida na Starbase - SpaceX, 2022.md",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Biografia Elon Musk/Capítulo 75 - Dia dos Pais (Junho de 2022).md",
+    "99 - Suporte/attachments/Pasted image 20241215111922.png",
+    "99 - Suporte/attachments/Pasted image 20241215111833.png",
+    "99 - Suporte/attachments/Pasted image 20241215111451.png",
+    "99 - Suporte/attachments/Pasted image 20241215111258.png",
+    "99 - Suporte/attachments/Pasted image 20241215111059.png",
+    "99 - Suporte/attachments/Pasted image 20241215111041.png",
+    "00 - Diário/2024-12-14.md",
+    "99 - Suporte/attachments/Pasted image 20241213114830.png",
+    "99 - Suporte/attachments/Pasted image 20241213114632.png",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Inglês/Sou péssimo em inglês",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Leitura/Edição de livros",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Inglês/Aula Shara",
+    "04 - Projetos/Plena Vida/Novo emprego/currículos",
+    "04 - Projetos/Plena Vida/Novo emprego",
+    "04 - Projetos/Plena Vida/Saúde Financeira",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Salman Khan - Brave New Words/exercícios",
+    "04 - Projetos/Novo Trampo",
+    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Leitura/Leitura com IA"
+  ]
+}

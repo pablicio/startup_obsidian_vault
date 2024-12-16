@@ -1,0 +1,21 @@
+{
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "99 - Suporte/attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "02 - Notas de literatura",
+  "promptDelete": false,
+  "spellcheck": false,
+  "trashOption": "local",
+  "readableLineLength": true,
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showLineNumber": false,
+  "showIndentGuide": true
+}
