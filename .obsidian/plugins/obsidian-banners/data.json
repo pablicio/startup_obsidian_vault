@@ -1,9 +1,9 @@
 {
-  "height": 200,
+  "height": 260,
   "style": "gradient",
-  "showInInternalEmbed": true,
+  "showInInternalEmbed": false,
   "internalEmbedHeight": null,
-  "showInPreviewEmbed": true,
+  "showInPreviewEmbed": false,
   "previewEmbedHeight": null,
   "frontmatterField": null,
   "bannerDragModifier": "none",

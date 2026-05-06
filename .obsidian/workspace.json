@@ -8,50 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d56fb0334a20acf",
+            "id": "5ecf46be338fd50d",
             "type": "leaf",
-            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "836c68b14404fb9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99 - Suporte/pages/Acordar cedo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Acordar cedo"
+            }
+          },
+          {
+            "id": "8a8a9bc7fb39e6a7",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "99 - Suporte/pages/Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Home"
-            }
-          },
-          {
-            "id": "6b2bd763369a0602",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Caixa de Entrada/20260506144158 - Nova nota.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "20260506144158 - Nova nota"
-            }
-          },
-          {
-            "id": "8bc46ed83d377915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 - Caixa de Entrada/20260506144158 - Nova nota.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "20260506144158 - Nova nota"
             }
           }
         ],
@@ -273,6 +271,16 @@
             "state": {
               "type": "reminder-list",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "reminder-list"
+            }
+          },
+          {
+            "id": "087c095cb5c76940",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
               "icon": "clock",
               "title": "Reminders"
             }
@@ -287,7 +295,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Criar nova base": false,
       "zk-prefixer:Criar nova nota única": false,
       "daily-notes:Abrir a nota de hoje": false,
       "graph:Abrir visualização em gráfico": false,
@@ -296,39 +303,48 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "bases:Criar nova base": false
     }
   },
-  "active": "8bc46ed83d377915",
+  "active": "8a8a9bc7fb39e6a7",
   "lastOpenFiles": [
-    "99 - Suporte/pages/Home.md",
-    "01 - Caixa de Entrada/20260506144158 - Nova nota.md",
-    "README.md",
-    "00 - Diário/2024-12-16.md",
-    "99 - Suporte/pages/PLUGINS.md",
-    "99 - Suporte/templates/semanal_template.md",
-    "99 - Suporte/templates/moc_template.md",
-    "99 - Suporte/templates/revisao_template.md",
-    "99 - Suporte/templates/flashcard_template.md",
-    "99 - Suporte/templates/referencia_template.md",
-    "desktop.ini",
-    "99 - Suporte/templates/daily_template.md",
-    "99 - Suporte/templates/note_template.md",
-    "98 - Itens Arquivados/empty.md",
-    "03 - Permanentes/empty.md",
-    "02 - Referências/empty.md",
-    "01 - Caixa de Entrada/empty.md",
-    "01 - Caixa de Entrada/20241216144736 -.md",
-    "99 - Suporte/attachments/Zettelkasten method with books and notes.png",
     "99 - Suporte/pages/Acordar cedo.md",
     "99 - Suporte/pages/Dieta.md",
     "99 - Suporte/pages/Exercícios.md",
+    "99 - Suporte/pages/Home.md",
     "99 - Suporte/pages/Meus Livros.md",
+    "99 - Suporte/pages/PLUGINS.md",
     "99 - Suporte/pages/Projeto.md",
-    "04 - Projetos/Youse/Tasks/SUB-881.md",
-    "00 - Diário/2024-12-15.md",
-    "01 - Caixa de Entrada/20241215115414 - Exercício de Múltipla Escolha -  Gradiente Descendente.md",
-    "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/20241215113807 - Verificação da convergência da descida do gradiente.md",
+    "99 - Suporte/pages/Ritual Diário.md",
+    "README.md",
+    "00 - Diário/2026-05-06.md",
+    "00 - Diário/2024-12-16.md",
+    "00 - Diário/empty.md",
+    "Sem título.base",
+    "Sem título 1.base",
+    "99 - Suporte/templates/flashcard_template.md",
+    "99 - Suporte/templates/revisao_template.md",
+    "01 - Caixa de Entrada/20260506144158 - Nova nota.md",
+    "99 - Suporte/templates/referencia_template.md",
+    "99 - Suporte/templates/permanente_template.md",
+    "99 - Suporte/templates/note_template.md",
+    "99 - Suporte/templates/moc_template.md",
+    "99 - Suporte/templates/semanal_template.md",
+    "99 - Suporte/scripts/saudacao.js",
+    "99 - Suporte/scripts/dobrar_intervalo.js",
+    "99 - Suporte/scripts/proxima_revisao.js",
+    "99 - Suporte/scripts",
+    "Sem título 3.base",
+    "Sem título 2.base",
+    "01 - Caixa de Entrada/20260506150223 -.md",
+    "Sem título.md",
+    "desktop.ini",
+    "99 - Suporte/templates/daily_template.md",
+    "98 - Itens Arquivados/empty.md",
+    "03 - Permanentes/empty.md",
+    "02 - Referências/empty.md",
+    "99 - Suporte/attachments/Zettelkasten method with books and notes.png",
     "02 - Referências/Empreendimento de Sucesso/Computação/IA/Machine Learning/Supervised Machine Learning Regression and Classification/exercicios",
     "99 - Suporte/attachments/Pasted image 20241215114758.png",
     "99 - Suporte/attachments/Pasted image 20241215111922.png",
@@ -338,14 +354,6 @@
     "99 - Suporte/attachments/Pasted image 20241215111059.png",
     "99 - Suporte/attachments/Pasted image 20241215111041.png",
     "99 - Suporte/attachments/Pasted image 20241213114830.png",
-    "99 - Suporte/attachments/Pasted image 20241213114632.png",
-    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Inglês/Sou péssimo em inglês",
-    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Leitura/Edição de livros",
-    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Inglês/Aula Shara",
-    "04 - Projetos/Plena Vida/Novo emprego/currículos",
-    "04 - Projetos/Plena Vida/Novo emprego",
-    "04 - Projetos/Plena Vida/Saúde Financeira",
-    "02 - Referências/Desenvolvimento Pessoal/Desenvolvimento Intelectual/Salman Khan - Brave New Words/exercícios",
-    "04 - Projetos/Novo Trampo"
+    "99 - Suporte/attachments/Pasted image 20241213114632.png"
   ]
 }

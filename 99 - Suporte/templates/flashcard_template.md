@@ -13,44 +13,36 @@ tags:
   - flashcard
 ---
 
-# 🃏 Flashcard
+# 🃏 <% tp.file.title %>
 
 ## ❓ Pergunta
-> Escreva a pergunta de forma clara e específica.
 
-
+<% tp.file.cursor(1) %>
 
 ---
 
 ## ✅ Resposta
-> Resposta direta. Use suas próprias palavras.
 
 
 
 ---
 
-## 🧠 Dica de memória (mnemônico)
-> Alguma associação, história ou imagem que ajuda a lembrar?
+## 🧠 Mnemônico
+> Uma associação, imagem ou história que ajuda a lembrar.
 
 
 
 ---
 
-## 🔗 Nota relacionada
+## 🔗 Nota de origem
 - [[]]
 
 ---
 
-## 📅 Histórico de revisão
+## 📅 Próxima revisão: `<% tp.date.now("YYYY-MM-DD") %>`
 
-| Data | Resultado | Próxima revisão |
-|------|-----------|-----------------|
-| <% tp.date.now("YYYY-MM-DD") %> | 🆕 Nova | <% tp.date.now("YYYY-MM-DD") %> |
-
----
-
-*Intervalo atual: **<% tp.frontmatter.intervalo_dias %> dia(s)***
-
-> **Como revisar manualmente:**
-> ✅ Acertou → dobre o intervalo (1→2→4→8→16→32 dias)
-> ❌ Errou → volte ao intervalo 1
+> **Como revisar:**
+> ✅ Acertei → `proxima_revisao` = hoje + (intervalo × 2)
+> ❌ Errei → `proxima_revisao` = amanhã, `intervalo_dias` = 1
+>
+> Sequência padrão: 1 → 2 → 4 → 8 → 16 → 32 dias

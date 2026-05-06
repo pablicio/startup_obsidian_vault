@@ -1,95 +1,100 @@
 ---
+banner: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1600&q=80"
+banner_y: 0.4
+cssclasses:
+  - home
 tipo: home
 tags:
   - home
 ---
-
 # 🧠 Segundo Cérebro
 
-> *"Um lugar para pensar melhor, não só guardar coisas."*
+## Ações rápidas
+
+| 📥 Nova entrada | 📅 Diário de hoje | 🔄 Ritual diário | 🔍 Buscar |
+|:-:|:-:|:-:|:-:|
+| `Ctrl+N` | `Ctrl+T` | `Alt+H` | `Ctrl+Shift+F` |
 
 ---
 
-## ⚡ Ações rápidas
+## Para fazer agora
 
-| Ação | Atalho |
-|------|--------|
-| 📥 Nova nota (inbox) | `Ctrl+N` |
-| 🔍 Busca global | `Ctrl+Shift+F` |
-| 📅 Nota de hoje | `Ctrl+T` (via Periodic Notes) |
-| ⚡ QuickAdd captura | `Alt+Q` |
+> [!danger]+ 🃏 Flashcards vencidos
+> ```dataview
+> TABLE proxima_revisao AS "Revisão", dificuldade AS "Dificuldade", deck AS "Deck"
+> FROM "04 - Flashcards"
+> WHERE proxima_revisao <= date(today) AND file.name != "empty"
+> SORT proxima_revisao ASC
+> LIMIT 10
+> ```
 
----
-
-## 🔁 Revisões de hoje
-
-```dataview
-TABLE proxima_revisao, intervalo_dias, repeticoes
-FROM "06 - Revisão"
-WHERE proxima_revisao <= date(today)
-SORT proxima_revisao ASC
-```
-
----
-
-## 📥 Caixa de Entrada (processar)
-
-```dataview
-TABLE file.mtime AS "Modificado"
-FROM "01 - Caixa de Entrada"
-SORT file.mtime DESC
-LIMIT 8
-```
+> [!warning]+ 🔁 Revisões do dia
+> ```dataview
+> TABLE proxima_revisao AS "Agendado", intervalo_dias AS "Intervalo (dias)"
+> FROM "06 - Revisão"
+> WHERE proxima_revisao <= date(today) AND file.name != "empty"
+> SORT proxima_revisao ASC
+> LIMIT 8
+> ```
 
 ---
 
-## 🃏 Flashcards para hoje
+## Inbox — processar
 
-```dataview
-TABLE proxima_revisao, dificuldade, deck
-FROM "04 - Flashcards"
-WHERE proxima_revisao <= date(today)
-SORT proxima_revisao ASC
-```
-
----
-
-## 📝 Últimas notas permanentes
-
-```dataview
-TABLE data, tags
-FROM "03 - Permanentes"
-SORT file.mtime DESC
-LIMIT 6
-```
+> [!note]+ 📥 Caixa de entrada
+> ```dataview
+> TABLE file.mtime AS "Entrada", tags AS "Tags"
+> FROM "01 - Caixa de Entrada"
+> WHERE file.name != "empty"
+> SORT file.mtime DESC
+> LIMIT 12
+> ```
 
 ---
 
-## 🗺️ Mapas de conteúdo (MOCs)
+## Explorar
 
-```dataview
-LIST
-FROM "05 - Mapas"
-SORT file.mtime DESC
-```
+> [!success]+ 📝 Permanentes recentes
+> ```dataview
+> TABLE tags AS "Tags", status AS "Status"
+> FROM "03 - Permanentes"
+> WHERE file.name != "empty"
+> SORT file.mtime DESC
+> LIMIT 6
+> ```
+
+> [!abstract]+ 🗺️ Mapas de conteúdo
+> ```dataview
+> LIST
+> FROM "05 - Mapas"
+> WHERE file.name != "empty"
+> SORT file.name ASC
+> ```
+
+> [!info]+ 📚 Referências recentes
+> ```dataview
+> TABLE autor AS "Autor", fonte AS "Fonte"
+> FROM "02 - Referências"
+> WHERE file.name != "empty"
+> SORT file.mtime DESC
+> LIMIT 5
+> ```
 
 ---
 
-## 📚 Referências recentes
+## Vault
 
-```dataview
-TABLE autor, fonte
-FROM "02 - Referências"
-SORT file.mtime DESC
-LIMIT 5
-```
+> [!example]+ 📊 Resumo geral
+> ```dataview
+> TABLE WITHOUT ID
+>   split(file.folder, "/")[0] AS "Área",
+>   length(rows) AS "Notas"
+> FROM "01 - Caixa de Entrada" OR "02 - Referências" OR "03 - Permanentes" OR "04 - Flashcards" OR "05 - Mapas" OR "06 - Revisão"
+> WHERE file.name != "empty"
+> GROUP BY split(file.folder, "/")[0]
+> SORT rows[0].file.folder ASC
+> ```
 
 ---
 
-## 📊 Status do vault
-
-```dataview
-TABLE length(rows) AS "Total"
-FROM "01 - Caixa de Entrada" OR "03 - Permanentes" OR "02 - Referências" OR "04 - Flashcards" OR "06 - Revisão"
-GROUP BY split(file.folder, "/")[0] AS Pasta
-```
+> 📖 [[README]] · 🔌 [[PLUGINS]] · 🔄 [[Ritual Diário]] · 📅 [[00 - Diário/]] · 🗃 [[98 - Itens Arquivados/]]

@@ -1,17 +1,41 @@
 {
-  "command_timeout": 1,
+  "command_timeout": 5,
   "templates_folder": "99 - Suporte/templates",
   "templates_pairs": [],
   "trigger_on_file_creation": true,
-  "auto_jump_to_cursor": false,
+  "auto_jump_to_cursor": true,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "99 - Suporte/scripts",
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "00 - Diário",
+      "template": "99 - Suporte/templates/daily_template.md"
+    },
+    {
+      "folder": "01 - Caixa de Entrada",
+      "template": "99 - Suporte/templates/note_template.md"
+    },
+    {
+      "folder": "02 - Referências",
+      "template": "99 - Suporte/templates/referencia_template.md"
+    },
+    {
+      "folder": "03 - Permanentes",
+      "template": "99 - Suporte/templates/permanente_template.md"
+    },
+    {
+      "folder": "04 - Flashcards",
+      "template": "99 - Suporte/templates/flashcard_template.md"
+    },
+    {
+      "folder": "05 - Mapas",
+      "template": "99 - Suporte/templates/moc_template.md"
+    },
+    {
+      "folder": "06 - Revisão",
+      "template": "99 - Suporte/templates/revisao_template.md"
     }
   ],
   "syntax_highlighting": true,
