@@ -1,6 +1,16 @@
 /* ============================================================
    HOME DASHBOARD — visual limpo, estilo dashboard moderno
+   v3 — sem gap de properties, charts no topo, 2 colunas
    ============================================================ */
+
+/* ── Esconde properties / metadata (gap entre banner e título) ── */
+.home .metadata-container {
+  display: none !important;
+}
+.home .inline-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 /* ── Layout geral ─────────────────────────────────────────── */
 .home.markdown-preview-view {
@@ -18,7 +28,7 @@
   font-size: 2em !important;
   font-weight: 800 !important;
   letter-spacing: -0.02em;
-  margin-top: 32px !important;
+  margin-top: 24px !important;
   margin-bottom: 2px !important;
   color: var(--text-normal);
   border: none !important;
@@ -28,7 +38,7 @@
 .home hr {
   border: none !important;
   border-top: 1px solid var(--background-modifier-border) !important;
-  margin: 28px 0 !important;
+  margin: 20px 0 !important;
 }
 
 /* ── Headings de seção ────────────────────────────────────── */
@@ -73,33 +83,6 @@
 
 .home .callout-content {
   padding: 0 !important;
-}
-
-/* ── Tabela de ações rápidas ──────────────────────────────── */
-.home table {
-  width: 100% !important;
-  border-collapse: separate !important;
-  border-spacing: 8px !important;
-  margin: 4px 0 !important;
-}
-
-.home table thead tr th {
-  display: none !important;
-}
-
-.home table tbody tr td {
-  background: var(--background-secondary) !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  border-radius: 10px !important;
-  padding: 12px 16px !important;
-  text-align: center !important;
-  font-size: 0.88em !important;
-  color: var(--text-normal) !important;
-  white-space: nowrap !important;
-}
-
-.home table tbody tr td:first-child {
-  font-size: 1em !important;
 }
 
 /* ── Dataview tables ──────────────────────────────────────── */
@@ -165,9 +148,236 @@
   color: var(--text-faint) !important;
 }
 
-/* ── Responsividade mínima ────────────────────────────────── */
+/* ============================================================
+   GRID / COLUNAS
+   ============================================================ */
+
+.home .dashboard-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 20px !important;
+  margin: 14px 0 !important;
+}
+
+.home .dashboard-row-3 {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  gap: 14px !important;
+  margin: 14px 0 !important;
+}
+
+/* coluna da esquerda ligeiramente maior para gráficos */
+.home .dashboard-row.charts-left {
+  grid-template-columns: 1.1fr 0.9fr !important;
+}
+
+.home .dashboard-col {
+  min-width: 0 !important;
+}
+
+/* ============================================================
+   METRIC CARDS
+   ============================================================ */
+
+.home .metric-row {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 12px !important;
+  margin: 14px 0 !important;
+}
+
+.home .metric-card {
+  background: var(--background-secondary) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 10px !important;
+  padding: 14px 16px !important;
+  text-align: center !important;
+}
+
+.home .metric-card .m-value {
+  font-size: 2em !important;
+  font-weight: 700 !important;
+  color: var(--text-accent) !important;
+  line-height: 1.1 !important;
+}
+
+.home .metric-card .m-label {
+  font-size: 0.72em !important;
+  color: var(--text-muted) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  margin-top: 4px !important;
+}
+
+.home .metric-card .m-sub {
+  font-size: 0.68em !important;
+  color: var(--text-faint) !important;
+  margin-top: 2px !important;
+}
+
+/* ============================================================
+   QUICK ACTIONS
+   ============================================================ */
+
+.home .quick-actions {
+  display: flex !important;
+  gap: 8px !important;
+  flex-wrap: wrap !important;
+  margin: 10px 0 !important;
+}
+
+.home .quick-actions a,
+.home .quick-actions a.internal-link,
+.home .quick-actions a.external-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: var(--background-secondary) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 8px !important;
+  padding: 7px 13px !important;
+  font-size: 0.83em !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: var(--text-normal) !important;
+  transition: background 0.15s, border-color 0.15s !important;
+  cursor: pointer !important;
+}
+
+.home .quick-actions a:hover,
+.home .quick-actions a.internal-link:hover {
+  background: var(--background-modifier-hover) !important;
+  border-color: var(--text-accent) !important;
+}
+
+.home .qa-kbd {
+  font-size: 0.75em !important;
+  background: var(--background-primary) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 4px !important;
+  padding: 1px 5px !important;
+  color: var(--text-muted) !important;
+  font-family: var(--font-monospace) !important;
+}
+
+.home .quick-actions a.create-btn {
+  border-color: var(--text-accent) !important;
+  color: var(--text-accent) !important;
+}
+
+.home .quick-actions a.create-btn:hover {
+  background: var(--text-accent) !important;
+  color: var(--background-primary) !important;
+}
+
+/* ============================================================
+   SECTION TITLE
+   ============================================================ */
+
+.home .dash-section-title {
+  font-size: 0.7em !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  color: var(--text-muted) !important;
+  border-bottom: 1px solid var(--background-modifier-border) !important;
+  padding-bottom: 6px !important;
+  margin: 16px 0 10px !important;
+}
+
+/* ============================================================
+   CHART BARS
+   ============================================================ */
+
+.home .chart-bar-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin: 5px 0 !important;
+  font-size: 0.8em !important;
+}
+
+.home .chart-bar-label {
+  width: 120px !important;
+  color: var(--text-muted) !important;
+  flex-shrink: 0 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.home .chart-bar-track {
+  flex: 1 !important;
+  background: var(--background-modifier-border) !important;
+  border-radius: 4px !important;
+  height: 8px !important;
+  overflow: hidden !important;
+}
+
+.home .chart-bar-fill {
+  height: 8px !important;
+  border-radius: 4px !important;
+  background: var(--text-accent) !important;
+  transition: width 0.4s !important;
+}
+
+.home .chart-bar-count {
+  width: 28px !important;
+  text-align: right !important;
+  color: var(--text-faint) !important;
+  flex-shrink: 0 !important;
+}
+
+/* ============================================================
+   PROGRESS RINGS
+   ============================================================ */
+
+.home .progress-rings {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  padding: 10px 0 !important;
+}
+
+.home .ring-item {
+  text-align: center !important;
+}
+
+.home .ring-item svg {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.home .ring-label {
+  font-size: 0.7em !important;
+  color: var(--text-muted) !important;
+  margin-top: 4px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+.home .ring-value {
+  font-size: 0.85em !important;
+  font-weight: 600 !important;
+  color: var(--text-accent) !important;
+}
+
+/* ============================================================
+   RESPONSIVIDADE
+   ============================================================ */
+
 @media (max-width: 900px) {
   .home .markdown-preview-section {
     padding: 0 18px 36px 18px !important;
+  }
+
+  .home .metric-row {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .home .dashboard-row,
+  .home .dashboard-row.charts-left,
+  .home .dashboard-row-3 {
+    grid-template-columns: 1fr !important;
   }
 }

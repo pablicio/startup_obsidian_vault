@@ -1,12 +1,11 @@
 ---
 date: <% tp.date.now("YYYY-MM-DD") %>
-dia_semana: <% tp.date.now("dddd", "pt-BR") %>
+dia_semana: <% tp.date.now("dddd") %>
 exercise: false
 early_wake_up: false
 diet: false
 energia: 5
 humor: 5
-frog: ""
 tags:
   - diário
 ---
@@ -25,60 +24,51 @@ tags:
 ## 🐸 Tarefa mais importante
 - [ ] 
 
-## ✅ Tarefas do dia
+## ✅ Tarefas
 - [ ] 
 - [ ] 
 - [ ] 
 
 ---
 
-## 🔴 Revisões e flashcards de hoje
+## 🔴 Revisões de hoje
 
 ```dataview
-TABLE proxima_revisao AS "📅", intervalo_dias AS "Intervalo"
-FROM "06 - Revisão"
-WHERE proxima_revisao <= date(today)
+TABLE proxima_revisao AS "📅 Data", intervalo_dias AS "Intervalo", tipo AS "Tipo"
+FROM "04 - Flashcards" OR "06 - Revisão"
+WHERE proxima_revisao <= date(today) AND file.name != "empty"
 SORT proxima_revisao ASC
-LIMIT 5
+LIMIT 10
 ```
 
-```dataview
-TABLE proxima_revisao AS "📅", deck AS "Deck", dificuldade AS "Dif."
-FROM "04 - Flashcards"
-WHERE proxima_revisao <= date(today)
-SORT proxima_revisao ASC
-LIMIT 8
-```
+> Abra cada nota e pressione `Alt+E` para revisar e atualizar o intervalo automaticamente.
 
 ---
 
-## 📥 Inbox de hoje
+## 🌱 Seeds de hoje
+> Capture sem filtro — fragmentos, perguntas, intuições, frases que chamaram atenção.
 
-```dataview
-TABLE file.mtime AS "Entrada"
-FROM "01 - Caixa de Entrada"
-WHERE file.name != "empty"
-SORT file.mtime DESC
-LIMIT 5
-```
+- 
+- 
+- 
 
 ---
 
 ## 📚 O que aprendi hoje?
-> Active Recall: escreva sem olhar para os materiais. Isso é a parte mais importante.
+> Active Recall: escreva **sem consultar materiais**. Isso é a parte mais importante da nota.
 
 - 
 
 ---
 
 ## 📥 Captura rápida
-> Ideias, pensamentos, links que surgiram ao longo do dia.
+> Links, referências, pensamentos que surgiram ao longo do dia.
 
 - 
 
 ---
 
-## 🌙 Reflexão noturna
+## 🌙 Reflexão
 
 **O que foi bem:**
 
@@ -88,16 +78,16 @@ LIMIT 5
 
 ---
 
-## 📊 Hábitos do dia
+## 📊 Hábitos
 
-| Hábito | Status |
-|--------|--------|
+| Hábito | ✅ |
+|--------|----|
 | ⏰ Acordar cedo | |
 | 🏃 Exercício | |
 | 🥗 Dieta | |
-| 📖 Estudei | |
 | 🧠 Revisei flashcards | |
+| 📖 Aprendi algo novo | |
 
 ---
 
-*← [[<% tp.date.now("YYYY-MM-DD", -1) %>]] · [[<% tp.date.now("YYYY-MM-DD", 1) %>]] →*
+*← [[<% tp.date.now("YYYY-MM-DD", -1, "YYYY-MM-DD") %>]] · [[<% tp.date.now("YYYY-MM-DD", 1, "YYYY-MM-DD") %>]] →*

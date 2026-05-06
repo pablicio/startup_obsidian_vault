@@ -1,172 +1,248 @@
-# 🧠 Segundo Cérebro — Guia Completo do Sistema
+# 🧠 Segundo Cérebro — Guia do Sistema
 
-> **Sistema de aprendizagem completo baseado em:** Zettelkasten + Spaced Repetition + Active Recall + MOCs
-> Funciona offline, com Markdown puro. Plugins são opcionais, não obrigatórios.
-
----
-
-## 📁 Estrutura do Vault
-
-```
-Segundo Cérebro/
-│
-├── 00 - Diário/          → Notas diárias (captura + reflexão)
-├── 01 - Caixa de Entrada/ → Inbox: tudo que entra aqui primeiro
-├── 02 - Referências/     → Livros, artigos, vídeos processados
-├── 03 - Permanentes/     → Conhecimento consolidado (Zettelkasten)
-├── 04 - Flashcards/      → Cards de memorização (Spaced Repetition)
-├── 05 - Mapas/           → MOCs: mapas de conteúdo por área
-├── 06 - Revisão/         → Notas agendadas para revisão espaçada
-├── 98 - Itens Arquivados/ → Notas inativas / arquivo morto
-└── 99 - Suporte/
-    ├── attachments/      → Imagens e arquivos
-    ├── pages/            → Home, PLUGINS, páginas especiais
-    └── templates/        → Todos os templates do sistema
-```
+> **Baseado em:** Zettelkasten · Spaced Repetition SM-2 · Active Recall · MOCs (LYT)
+> Funciona 100% offline com Markdown puro. Dataview + Templater são os únicos plugins obrigatórios.
 
 ---
 
-## 🔄 O Fluxo Completo
+## 📁 Estrutura do vault
 
 ```
-CAPTURA → PROCESSAMENTO → CONEXÃO → MEMORIZAÇÃO → REVISÃO → PRODUÇÃO
+00 - Diário/            → Notas diárias e semanais
+01 - Caixa de Entrada/  → Tudo que entra aqui primeiro (inbox)
+02 - Referências/       → Livros, artigos, vídeos processados
+03 - Permanentes/       → Conhecimento consolidado (Zettelkasten)
+04 - Flashcards/        → Cards de memorização (Spaced Repetition)
+05 - Mapas/             → MOCs: visão panorâmica por área
+06 - Revisão/           → Notas completas agendadas para revisão
+98 - Itens Arquivados/  → Arquivo morto
+99 - Suporte/
+    ├── templates/      → Todos os templates
+    ├── scripts/        → Scripts utilitários
+    └── pages/          → Home, PLUGINS, páginas especiais
 ```
 
-### 1. 📥 CAPTURA
-Tudo vai primeiro para `01 - Caixa de Entrada`.
-- Notas rápidas, links, ideias, resumos de vídeos
-- Sem se preocupar com formato
-- Meta: inbox zero toda semana
+---
 
-### 2. 🧠 PROCESSAMENTO
-Ao revisar o inbox, decida:
-- **Ideia atômica nova?** → Crie nota permanente em `03 - Permanentes` (use `permanente_template`)
-- **Material de referência?** → Mova para `02 - Referências` (use `referencia_template`)
-- **Precisa memorizar?** → Crie flashcard em `04 - Flashcards` (use `flashcard_template`)
-- **Não tem valor?** → Delete ou arquive em `98 - Itens Arquivados`
+## 🌱 Os 4 tipos de nota
 
-### 3. 🔗 CONEXÃO
-Toda nota permanente deve ter pelo menos **2 links** para outras notas.
+O sistema usa uma progressão natural de maturidade:
+
+| Tipo              | Template              | Onde                    | Descrição                                         |
+| ----------------- | --------------------- | ----------------------- | ------------------------------------------------- |
+| 🌱 **Caixa de Entrada**       | `seed_template`       | `01 - Caixa de Entrada` | Ideia crua, intuição, pergunta sem resposta ainda |
+| 📚 **Referência** | `referencia_template` | `02 - Referências`      | Fonte processada (livro, artigo, vídeo)           |
+| 🧠 **Permanente** | `permanente_template` | `03 - Permanentes`      | Ideia atômica, com suas palavras, com links       |
+| 🃏 **Flashcard**  | `flashcard_template`  | `04 - Flashcards`       | Uma pergunta + resposta para memorização          |
+
+**Fluxo de maturidade:**
+```
+🌱 Caixa de Entrada  →  📚 Referência  →  🧠 Permanente  →  🃏 Flashcard
+(captura)    (fonte)           (insight)          (memória)
+```
+
+> Uma Entrada pode virar diretamente uma Permanente se a ideia já estiver clara o suficiente.
+
+---
+
+## 🔄 O fluxo completo
+
+```
+CAPTURAR → PROCESSAR → CONECTAR → MEMORIZAR → REVISAR
+```
+
+### 1. 📥 Capturar
+- Tudo entra em `01 - Caixa de Entrada`
+- Use `seed_template` para ideias rápidas
+- Use `note_template` para capturas com mais contexto
+- **Regra:** nunca pense em organização na hora de capturar
+
+### 2. 🧠 Processar (inbox zero toda semana)
+Ao processar cada nota do inbox, decida:
+
+| Pergunta | Ação |
+|----------|------|
+| É uma ideia que quero desenvolver? | → `03 - Permanentes` com `permanente_template` |
+| É conteúdo de uma fonte externa? | → `02 - Referências` com `referencia_template` |
+| Preciso memorizar isso? | → `04 - Flashcards` com `flashcard_template` |
+| Precisa de revisão profunda depois? | → `06 - Revisão` com `revisao_template` |
+| Não tem valor? | → Archive em `98 - Itens Arquivados` |
+
+### 3. 🔗 Conectar
+- Toda nota permanente precisa de **pelo menos 2 links** para outras notas
 - Use `[[nome da nota]]` para linkar
-- Crie MOCs em `05 - Mapas` para agrupar notas relacionadas
+- Se várias notas se relacionam: crie um MOC em `05 - Mapas`
 
-### 4. 🃏 MEMORIZAÇÃO (Spaced Repetition)
-Para conteúdo que precisa ser memorizado:
-- Crie flashcards em `04 - Flashcards`
-- **Com plugin:** Use `obsidian-spaced-repetition` (automático)
-- **Sem plugin:** Atualize `proxima_revisao` manualmente no frontmatter
+### 4. 🃏 Memorizar
+- Crie flashcards para o que precisa ficar na memória de longo prazo
+- Uma pergunta clara → uma resposta clara
+- Adicione um mnemônico quando possível
 
-### 5. 🔁 REVISÃO ESPAÇADA
-Consulte `Home.md` diariamente para ver o que precisa ser revisado.
-- Intervalo inicial: 1 dia
-- Acertou? → Dobre o intervalo (1 → 2 → 4 → 8 → 16 → 32 dias)
-- Errou? → Volta para 1 dia
+### 5. 🔁 Revisar
+- Abra `Home.md` todo dia: ela mostra o que está vencido
+- Use o script de revisão automática (ver seção abaixo) para atualizar os intervalos com 1 clique
 
-### 6. 📤 PRODUÇÃO
-Use seu conhecimento para criar:
-- Artigos, posts, projetos
-- Novas conexões entre ideias
-- Ensinar alguém (Técnica Feynman)
+---
+
+## 📅 Nota diária — ritual
+
+A nota diária é o centro operacional do dia. Use `daily_template`.
+
+### Ritual da manhã (5–10 min)
+1. Crie a nota do dia via `Ctrl+T` (Periodic Notes) ou pelo botão na Home
+2. Escreva a **intenção do dia** — uma frase de foco
+3. Defina a **tarefa mais importante (frog)**
+4. Veja as revisões e flashcards vencidos
+
+### Durante o dia
+- Capture seeds e ideias na seção **Captura rápida**
+- Não processe agora — apenas capture
+
+### Ritual da noite (5–10 min)
+1. Preencha **O que aprendi hoje?** — escreva SEM consultar materiais (Active Recall)
+2. Reflita: o que foi bem / o que pode melhorar
+3. Atualize os hábitos do dia
+
+> **Por que Active Recall?** Recuperar informação da memória é 2–3× mais eficiente do que reler. Mesmo escrever poucos pontos já consolida o aprendizado.
+
+---
+
+## 🃏 Repetição espaçada — cálculo automático
+
+### O algoritmo (SM-2 simplificado)
+
+Após revisar um card, você avalia:
+
+| Avaliação | Próximo intervalo |
+|-----------|-------------------|
+| ✅ Lembrei fácil | `intervalo × 2.5` |
+| 😐 Lembrei com esforço | `intervalo × 1.5` |
+| ❌ Esqueci | Volta para 1 dia |
+
+**Progressão típica de um card fácil:**
+```
+1 → 3 → 7 → 18 → 45 → 113 dias
+```
+
+### Como revisar (com cálculo automático)
+
+Existe um template-script que **atualiza o frontmatter automaticamente** com 1 clique:
+
+1. Abra o flashcard ou nota de revisão
+2. Pressione `Alt+E` (ou vá em: **Templater → "Revisar: Atualizar Repetição Espaçada"**)
+3. Um popup pergunta: Acertei / Médio / Errei
+4. O script calcula e salva automaticamente:
+   - `proxima_revisao` — nova data
+   - `intervalo_dias` — novo intervalo
+   - `ultima_revisao` — data de hoje
+   - `acertos` / `erros` — contador atualizado
+
+> **Para configurar o hotkey:**
+> Configurações → Teclas de atalho → buscar "Templater" → encontre o template `revisar_espacada_template` → atribua `Alt+E`
+
+### Como revisar (manual, se preferir)
+Após revisar uma nota, edite o frontmatter:
+```yaml
+proxima_revisao: 2026-05-14   # hoje + intervalo
+intervalo_dias: 8              # dobrou de 4
+```
+
+---
+
+## 🌱 Seeds — notas embrionárias
+
+Seeds são **ideias cruas que ainda não viraram nada**. São diferentes de notas de inbox comuns porque:
+- Não precisam de contexto ou explicação
+- São fragmentos: uma pergunta, uma intuição, uma frase que chamou atenção
+- O objetivo é capturar sem filtro
+
+**Exemplos de seeds:**
+- *"Por que sistemas simples sobrevivem mais que sistemas complexos?"*
+- *"Ideia: usar mapas mentais para planejar projetos de escrita"*
+- *"Reler: capítulo 4 do livro X — algo não encaixou"*
+
+**Como usar:**
+1. Use `seed_template` para criar
+2. Seeds ficam em `01 - Caixa de Entrada` com `status: semente`
+3. No processamento semanal, decida: desenvolver → Permanente, ou descartar → Archive
+4. Uma boa seed tem uma **tensão criativa** — uma pergunta que quer ser respondida
+
+---
+
+## 🗺️ MOCs — Mapas de Conteúdo
+
+MOCs são **índices vivos** de uma área de conhecimento. Ficam em `05 - Mapas`.
+
+- Não são resumos — são **mapas de navegação**
+- Apontam para as notas permanentes de um tema
+- O Dataview os mantém atualizados automaticamente
+- Comece um MOC quando tiver 5+ notas permanentes sobre um tema
 
 ---
 
 ## 📋 Templates disponíveis
 
-| Template | Pasta destino | Quando usar |
-|----------|--------------|-------------|
-| `daily_template` | `00 - Diário` | Todo dia (automático) |
-| `semanal_template` | `00 - Diário` | Toda segunda-feira |
-| `permanente_template` | `03 - Permanentes` | Ao criar nota atômica |
-| `referencia_template` | `02 - Referências` | Ao processar fonte externa |
-| `flashcard_template` | `04 - Flashcards` | Ao criar card de memória |
-| `revisao_template` | `06 - Revisão` | Para agendar revisão de nota importante |
-| `moc_template` | `05 - Mapas` | Ao criar mapa de uma área de conhecimento |
-| `note_template` | qualquer | Template genérico simples |
+| Template | Onde criar | Para que |
+|----------|-----------|----------|
+| `daily_template` | `00 - Diário` | Nota diária (manhã + noite) |
+| `semanal_template` | `00 - Diário` | Revisão semanal |
+| `seed_template` | `01 - Caixa de Entrada` | Ideia crua, intuição rápida |
+| `note_template` | `01 - Caixa de Entrada` | Nota de inbox com contexto |
+| `referencia_template` | `02 - Referências` | Fonte processada |
+| `permanente_template` | `03 - Permanentes` | Ideia atômica desenvolvida |
+| `flashcard_template` | `04 - Flashcards` | Card de memorização |
+| `revisao_template` | `06 - Revisão` | Nota para revisão profunda |
+| `moc_template` | `05 - Mapas` | Mapa de conteúdo de uma área |
+| `revisar_espacada_template` | *(roda no arquivo atual)* | Atualiza SR automaticamente |
 
 ---
 
-## 🃏 Sistema de Spaced Repetition
+## 🔌 Plugins
 
-### Sem plugin (manual)
-1. Use `flashcard_template` ou `revisao_template`
-2. Frontmatter tem `proxima_revisao` e `intervalo_dias`
-3. Home.md mostra automaticamente o que precisa ser revisado hoje (via Dataview)
-4. Após revisar: atualize `proxima_revisao = hoje + intervalo` e dobre o intervalo se acertou
+Veja o guia completo: [[PLUGINS]]
 
-### Com plugin (recomendado)
-1. Instale `obsidian-spaced-repetition`
-2. Em qualquer nota, adicione:
-   ```
-   #flashcard
-   Pergunta :: Resposta
-   ```
-3. O plugin agenda automaticamente com algoritmo SM-2 (mesmo do Anki)
+**Obrigatórios:**
+- `dataview` — painéis e queries automáticas
+- `templater-obsidian` — templates dinâmicos e script de revisão
 
----
-
-## 🧠 Active Recall nas notas diárias
-
-No template diário, há uma seção **"O que aprendi hoje?"**:
-- Escreva SEM consultar materiais
-- Force seu cérebro a recuperar ativamente
-- Isso é 2-3x mais eficiente que reler
-
----
-
-## 🗺️ MOCs — Maps of Content
-
-Mapas de Conteúdo são índices vivos de um tema.
-- Ficam em `05 - Mapas`
-- Criam visão panorâmica de uma área
-- Usam Dataview para se atualizar automaticamente
-- Exemplo: `Mapa - Aprendizagem`, `Mapa - Marketing`, `Mapa - Programação`
-
----
-
-## 🔌 Plugins essenciais
-
-Veja o guia completo em: [[PLUGINS]]
-
-**Mínimo para funcionar bem:**
-1. `templater-obsidian` ✅ (já instalado)
-2. `dataview` ✅ (já instalado)
-3. `obsidian-spaced-repetition` ← instalar
-4. `calendar` ← instalar
-5. `periodic-notes` ← instalar
-6. `quickadd` ← instalar
+**Recomendados:**
+- `periodic-notes` — notas diárias/semanais automáticas
+- `calendar` — navegação visual por datas
+- `quickadd` — captura rápida com hotkey
+- `obsidian-spaced-repetition` — alternativa ao sistema manual (usa SR inline com `#flashcard`)
 
 ---
 
 ## 📏 Regras do sistema
 
-| Regra | Detalhes |
-|-------|----------|
-| **Inbox zero semanal** | Processar toda a caixa de entrada toda semana |
-| **Nota atômica** | Cada permanente = 1 ideia clara |
-| **2 links mínimo** | Toda permanente conecta a pelo menos 2 outras |
-| **Revisão diária** | Checar Home.md para revisões agendadas |
-| **Escrever para ensinar** | Processe como se fosse explicar para alguém |
-| **Nunca delete do inbox** | Archive em 98 se não servir |
+| Regra | Por quê |
+|-------|---------|
+| **Inbox zero semanal** | Acúmulo no inbox = conhecimento perdido |
+| **1 ideia por permanente** | Notas atômicas se conectam melhor |
+| **2 links mínimo** | Sem links, a nota não existe no sistema |
+| **Revisar antes de criar** | Veja o que está vencido antes de adicionar mais |
+| **Escreva como se fosse ensinar** | Força clareza; revela o que você não sabe |
+| **Seeds sem filtro** | Capture tudo, processe depois |
 
 ---
 
-## 🚀 Por onde começar (primeiros 3 dias)
+## 🚀 Primeiros 3 dias
 
-**Dia 1:**
-- [ ] Abrir `Home.md` como página inicial
+**Dia 1 — Configurar**
+- [ ] Definir `Home.md` como página de abertura do vault
 - [ ] Criar primeira nota diária com `daily_template`
-- [ ] Jogar 3 ideias na Caixa de Entrada
+- [ ] Lançar 3–5 seeds na Caixa de Entrada
 
-**Dia 2:**
-- [ ] Processar as 3 notas do inbox
-- [ ] Criar 1 nota permanente
+**Dia 2 — Processar**
+- [ ] Processar as seeds do dia anterior
+- [ ] Criar 1 nota permanente a partir de uma seed
 - [ ] Criar 1 flashcard sobre algo que aprendeu
 
-**Dia 3:**
+**Dia 3 — Conectar**
+- [ ] Linkar a nota permanente a pelo menos 2 outras
 - [ ] Criar seu primeiro MOC em `05 - Mapas`
-- [ ] Instalar `obsidian-spaced-repetition`
-- [ ] Fazer primeira revisão semanal
+- [ ] Configurar o hotkey `Alt+E` para o script de revisão
 
 ---
 
-*Sistema criado em 2026-05-06 | Baseado em: Zettelkasten (Luhmann), SM-2 (Wozniak), Active Recall (Roediger & Karpicke), MOCs (Nick Milo)*
+*Sistema criado em 2026-05-06 · Baseado em: Zettelkasten (Luhmann) · SM-2 (Wozniak) · Active Recall (Roediger & Karpicke) · MOCs (Nick Milo)*

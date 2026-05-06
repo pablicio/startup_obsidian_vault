@@ -6,9 +6,11 @@ tipo: flashcard
 deck: geral
 dificuldade: nova
 proxima_revisao: <% tp.date.now("YYYY-MM-DD") %>
+ultima_revisao: 
 intervalo_dias: 1
 acertos: 0
 erros: 0
+repeticoes: 0
 tags:
   - flashcard
 ---
@@ -39,10 +41,5 @@ tags:
 
 ---
 
-## 📅 Próxima revisão: `<% tp.date.now("YYYY-MM-DD") %>`
-
-> **Como revisar:**
-> ✅ Acertei → `proxima_revisao` = hoje + (intervalo × 2)
-> ❌ Errei → `proxima_revisao` = amanhã, `intervalo_dias` = 1
->
-> Sequência padrão: 1 → 2 → 4 → 8 → 16 → 32 dias
+> **Para revisar:** pressione `Alt+E` com esta nota aberta — o script calcula e salva tudo automaticamente.
+> Ou configure em: Templater → executar template → `revisar_espacada_template`

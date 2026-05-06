@@ -1,8 +1,8 @@
 ---
-id: <% tp.date.now("YYYYMMDDHHmmss") %>
+id: 20260506163356
 titulo: 
-data_criacao: <% tp.date.now("YYYY-MM-DD") %>
-proxima_revisao: <% tp.date.now("YYYY-MM-DD") %>
+data_criacao: 2026-05-06
+proxima_revisao: 2026-05-06
 ultima_revisao: 
 intervalo_dias: 1
 repeticoes: 0
@@ -13,7 +13,7 @@ tags:
   - revisao
 ---
 
-# 🔁 Revisão: <% tp.file.title %>
+# 🔁 Revisão: Nova Revisão
 
 ## 📝 Conteúdo para revisar
 
@@ -49,9 +49,9 @@ tags:
 
 | Data | Resultado | Próxima revisão |
 |------|-----------|-----------------|
-| <% tp.date.now("YYYY-MM-DD") %> | 🆕 Criada | <% tp.date.now("YYYY-MM-DD") %> |
+| 2026-05-06 | 🆕 Criada | 2026-05-06 |
 
 ---
 
 > **Para revisar:** pressione `Alt+E` com esta nota aberta — o script calcula e salva tudo automaticamente.
-> Nota original: [[<% tp.frontmatter.nota_origem %>]]
+> Nota original: [[undefined]]
